@@ -1,17 +1,58 @@
 ﻿<!DOCTYPE html>
 <html>
+<style>
+.cool-font {
+  font-family: sans-serif;
+}
+.icon-adjust1 {
+  position: relative;
+  top: 2px;
+  left: 0px;
+}
+.icon-adjust2 {
+  position: relative;
+  top: 5px;
+  left: 0px;
+}
+.hline-bottom {
+    padding-bottom: 0px;
+    border-bottom: 2px;
+    border-style: solid;
+    border-color: black;
+}
+</style>
 <head>
-<title>Kieran Maben | About</title>
+  <title>Kieran Maben | About</title>
+  <meta charset="utf-8">
+  <meta name="author" content="Kieran Maben">
+  <meta name="description" content="Personal website of Kieran Maben">
 </head>
 <body>
-
-<a href="index.html">Home</a>
-About
-<a href="contact.html">Contact</a>
-
+<p class="cool-font">
+  <a href="index.html">Home</a> <b>|</b> About <b>|</b> <a href="contact.html">Contact</a>
 </p>
-
-<h1>About Kieran</h1>
-<p>I play upright bass and classical guitar, and I attend high school at the L&N STEM Academy.</p>
+<div class="hline-bottom"></div>
+<h1 class="cool-font">About Kieran</h1>
+<p class="cool-font">
+  I am a beginner programmer who is in the process of learning HTML, CSS, and JavaScript.
+  This website is my first project, and it utilizes GitHub Pages.
+</p>
+<p class="cool-font">
+  Also, I play upright bass and classical guitar.
+</p>
+<ul class="cool-font">
+  <li>
+    My YouTube channel
+    <a href="https://www.youtube.com/channel/UCLMf5mi5rqSHqqsbQzyZE0g" title="YouTube" target="_blank">
+    <img class="icon-adjust1" alt="Link to YouTube channel" width="23px" height="16px" src="img/youtube.png">
+    </a>
+  </li>
+  <li>
+    Repository for this website
+    <a href="https://github.com/kmaben/kmaben.github.io" title="Repository" target="_blank">
+    <img class="icon-adjust2" alt="Link to GitHub repository" width="23px" height="23px" src="img/github.svg">
+    </a>
+  </li>
+</ul>
 </body>
 </html>

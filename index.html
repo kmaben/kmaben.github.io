@@ -1,21 +1,42 @@
 ﻿<!DOCTYPE html>
 <html>
+<style>
+.cool-font {
+  font-family: sans-serif;
+}
+.hline-bottom {
+    padding-bottom: 0px;
+    border-bottom: 2px;
+    border-style: solid;
+    border-color: black;
+}
+.border {
+  border-width: 3px;
+  border-style: solid;
+  border-radius: 10px;
+}
+</style>
 <head>
-<title>Kieran Maben | Home</title>
+  <title>Kieran Maben | Home</title>
 </head>
 <body>
-<p>Home
-
-<a href="about.html">About</a>
-
-<a href="contact.html">Contact</a>
-
+<p class="cool-font">
+  Home <b>|</b>
+  <a href="about.html">About</a> <b>|</b> <a href="contact.html">Contact</a>
+  <div class="hline-bottom"></div>
 </p>
-
-<h1>Welcome to my website!</h1>
-<p>Hello there! My name is Kieran, and welcome to my website!</p>
-
-<img src="images/yoshi.jpg" alt="Yoshi the Cat" style="width:15%;">
-
+<h1 class="cool-font">Welcome to my website!</h1>
+<p class="cool-font">
+  Hi there! My name is Kieran, and welcome to my website!
+</p>
+<p class="cool-font">
+  This is my cat, <strong>Yoshi</strong>.
+</p>
+<img title="meow" class="border" src="img/yoshi.jpg" alt="Yoshi the Cat" style="width:20%;">
+<div>
+  <a href="img/yoshi.jpg" target="_blank">
+    <button>View full size</button>
+  </a>
+</div>
 </body>
 </html>
